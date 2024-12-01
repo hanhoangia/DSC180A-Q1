@@ -1,24 +1,41 @@
-# DSC180A Quarter 1 Project
+# Network Analysis and Graph Machine Learning
 
-# Introduction
+## Table of Contents
+- [Introduction](#introduction)
+- [Project Description](#description)
+  - [Assignment 1](#assignment1)
+  - [Assiggment 2](#assignment2)
+- [Setup Instructions](#setup)
+  - [Step 1: Clone the repository](#step1-setup)
+  - [Step 2: Download the Data](#setp2-setup)
+  - [Step 3: Setup Development Environment](#step3-setup)
+    - [Step 3.1: Install Miniconda (If Uninstalled)](#step3-1-setup)
+    - [Step 3.2: Create and Activate Conda Environment](#step3-2-setup)
+- [File Structure](#repo-structure)
+
+---
+
+## Introduction
 
 The domain of our section is graph machine learning in the field of chip design. We spent our first quarter learning about graph fundamentals and different graph machine learning models with a focus on graph neural networks. Besides the lectures, we have 2 assignments constitute our Quarter 1 project that are designed to help us learn how to construct a graph from the data, produce graph statistics, build graph machine learning model architectures, and understand the application and importance of an efficient graph machine learning algorithm when it comes to chip design.
 
-# Project Description
+---
+
+## Project Description
 
 As mentioned, there are 2 assignments that make up our quarter 1 project. For more information about each assignment, refer to the assignment-specific `README.md` and the `docs\` directory inside the assignment's directory.
 
-## Assignment 1
+### Assignment 1
 
 In this assignment, we are tasked with finding the busiest subway stations and connections in the New York MTA subway system via graph analysis. We do this by constructing a graph representation from tabular datasets and using this graph representation to derive some graph statistics, such as highest node degrees and highest edge weights, to solve the problem. The goal of this assignment is to familiarize ourselves with utilizing network graph Python libraries like [*NetworkX*](https://networkx.org) for graph construction and analysis.
 
-## Assignment 2
+### Assignment 2
 
 In this assignment, we are asked to reimplement the core graph neural network model of a [paper](https://arxiv.org/abs/2404.00477) (i.e. De-HNN). We compare the benchmark results of our reimplementation to the one presented in the paper to check if the results line up. The goal of this assignment is to learn how to do graph embeddings, feature extraction for graph nodes and edges, and updates of graph features (i.e. message passing) in the process of reproducing a paper on graph neural network machine learning.
 
-# Setup Instructions
+## Setup Instructions
 
-## Step 1: Clone the repository
+### Step 1: Clone the repository
 
 Clone this repository and cd into the cloned directory:
 
@@ -27,7 +44,7 @@ git clone https://github.com/hanhoangia/DSC180A-Q1.git
 cd DSC180A-Q1
 ```
 
-## Step 2: Download the Data
+### Step 2: Download the Data
 
 #### For Assignment 1
 
@@ -40,24 +57,26 @@ There are 2 options (raw and processed dataset):
 - *Processed dataset*: Download [here](https://zenodo.org/records/10795280?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6Ijk5NjM2MzZiLTg0ZmUtNDI2My04OTQ3LTljMjA5ZjA3N2Y1OSIsImRhdGEiOnt9LCJyYW5kb20iOiJlYzFmMGJlZTU3MzE1OWMzOTU2MWZkYTE3MzY5ZjRjOCJ9.WifQFExjW1CAW0ahf3e5Qr0OV9c2cw9_RUbOXUsvRbnKlkApNZwVCL_VPRJvAve0MJDC0DDOSx_RLiTvBimr0w). Extract the files from the zip file and place the extracted files into the `assignment2/data` folder. 
 - *Raw dataset*: Download [here](https://drive.google.com/file/d/1Scq35gvCQvIMrmthGs7MUhc8c1VZ8ZwN/view). Extract the zip into the `assignment2/data` folder. To process the raw data, cd into `de_hnn/data` folder and run `./run_all_python_scripts.sh` from the command line.
 
-## Step 3: Setup the Environment
+### Step 3: Setup Development Environment
 
-**Note**: This project is created and run in a Conda environment. Please follow the instructions below to setup the environment.
+**Note**: This project is developed and run in a Conda environment. Please follow the instructions below to setup the environment.
 
-### Step 3.1 Install  Miniconda (If Uninstalled)
+#### Step 3.1 Install  Miniconda (If Uninstalled)
 
 Follow the instructions [here](https://docs.anaconda.com/miniconda/install/) based on the specs of your machine.
 
-### Step 3.2 Create and activate the environment with projects packages installed
+#### Step 3.2 Create and activate Conda Environment
 
-```py
+```bash
 conda env create -f environment.yml
 conda activate DSC180A-B12
 ```
 
 **Note**: When the first command is run, it automatically creates and enables a Python kernel dedicated for the new environment.
 
-# File Structure
+---
+
+## File Structure
 
 - `README.me`: Overview of the quarter 1 project, consists of assignment 1 and assignment 2, and reproducing instructions for the project.
 
