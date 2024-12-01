@@ -9,7 +9,7 @@
   - [Step 1: Clone the repository](#step-1-clone-the-repository)
   - [Step 2: Download the Data](#step-2-download-the-data)
   - [Step 3: Setup Development Environment](#step-3-setup-development-environment)
-    - [Step 3.1: Install Miniconda (If Uninstalled)](#step-31-install-miniconda-if-uninstalled)
+    - [Step 3.1: Install Miniconda](#step-31-install-miniconda)
     - [Step 3.2: Create and Activate Conda Environment](#step-32-create-and-activate-conda-environment)
 - [Repo Structure](#repo-structure)
 
@@ -32,6 +32,8 @@ In this assignment, we are tasked with finding the busiest subway stations and c
 ### Assignment 2
 
 In this assignment, we are asked to reimplement the core graph neural network model of a [paper](https://arxiv.org/abs/2404.00477) (i.e. De-HNN). We compare the benchmark results of our reimplementation to the one presented in the paper to check if the results line up. The goal of this assignment is to learn how to do graph embeddings, feature extraction for graph nodes and edges, and updates of graph features (i.e. message passing) in the process of reproducing a paper on graph neural network machine learning.
+
+---
 
 ## Setup Instructions
 
@@ -76,7 +78,7 @@ conda activate DSC180A-B12
 
 ---
 
-## Repos Structure
+## Repo Structure
 
 - `README.me`: Overview of the quarter 1 project, consists of assignment 1 and assignment 2, and reproducing instructions for the project.
 
