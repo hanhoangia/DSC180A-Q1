@@ -2,16 +2,16 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Project Description](#description)
-  - [Assignment 1](#assignment1)
-  - [Assiggment 2](#assignment2)
-- [Setup Instructions](#setup)
-  - [Step 1: Clone the repository](#step1-setup)
-  - [Step 2: Download the Data](#setp2-setup)
-  - [Step 3: Setup Development Environment](#step3-setup)
-    - [Step 3.1: Install Miniconda (If Uninstalled)](#step3-1-setup)
-    - [Step 3.2: Create and Activate Conda Environment](#step3-2-setup)
-- [File Structure](#repo-structure)
+- [Project Description](#project-description)
+  - [Assignment 1](#assignment-1)
+  - [Assignment 2](#assignment-2)
+- [Setup Instructions](#setup-instructions)
+  - [Step 1: Clone the repository](#step-1-clone-the-repository)
+  - [Step 2: Download the Data](#step-2-download-the-data)
+  - [Step 3: Setup Development Environment](#step-3-setup-development-environment)
+    - [Step 3.1: Install Miniconda (If Uninstalled)](#step-31-install-miniconda-if-uninstalled)
+    - [Step 3.2: Create and Activate Conda Environment](#step-32-create-and-activate-conda-environment)
+- [Repo Structure](#repo-structure)
 
 ---
 
@@ -76,7 +76,7 @@ conda activate DSC180A-B12
 
 ---
 
-## File Structure
+## Repos Structure
 
 - `README.me`: Overview of the quarter 1 project, consists of assignment 1 and assignment 2, and reproducing instructions for the project.
 
