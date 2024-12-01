@@ -9,7 +9,7 @@
   - [Step 1: Clone the repository](#step-1-clone-the-repository)
   - [Step 2: Download the Data](#step-2-download-the-data)
   - [Step 3: Setup Development Environment](#step-3-setup-development-environment)
-    - [Step 3.1: Install Miniconda](#step-31-install-miniconda)
+    - [Step 3.1: Install Miniconda (If Uninstalled)](#step-31-install-miniconda-if-uninstalled)
     - [Step 3.2: Create and Activate Conda Environment](#step-32-create-and-activate-conda-environment)
 - [Repo Structure](#repo-structure)
 
@@ -63,11 +63,11 @@ There are 2 options (raw and processed dataset):
 
 **Note**: This project is developed and run in a Conda environment. Please follow the instructions below to setup the environment.
 
-#### Step 3.1 Install  Miniconda (If Uninstalled)
+#### Step 3.1 Install Miniconda (If Uninstalled)
 
 Follow the instructions [here](https://docs.anaconda.com/miniconda/install/) based on the specs of your machine.
 
-#### Step 3.2 Create and activate Conda Environment
+#### Step 3.2 Create and Activate Conda Environment
 
 ```bash
 conda env create -f environment.yml
