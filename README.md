@@ -1,22 +1,26 @@
 # DSC180A Quarter 1 Project
 
+# Introduction
+
+The domain of our section is graph machine learning in the field of chip design. We spent our first quarter learning about graph fundamentals and different graph machine learning models with a focus on graph neural networks. Besides the lectures, we have 2 assignments constitute our Quarter 1 project that are designed to help us learn how to construct a graph from the data, produce graph statistics, build graph machine learning model architectures, and understand the application and importance of an efficient graph machine learning algorithm when it comes to chip design.
+
 # Project Description
 
-There are 2 assignments that make up our quarter 1 project. For more information about each assignment, refer to the assignment-specific `README.md` and the `docs\` directory inside the assignment's directory.
+As mentioned, there are 2 assignments that make up our quarter 1 project. For more information about each assignment, refer to the assignment-specific `README.md` and the `docs\` directory inside the assignment's directory.
 
 ## Assignment 1
 
-Add assignment 1 description here
+In this assignment, we are tasked with finding the busiest subway stations and connections in the New York MTA subway system via graph analysis. We do this by constructing a graph representation from tabular datasets and using this graph representation to derive some graph statistics, such as highest node degrees and highest edge weights, to solve the problem. The goal of this assignment is to familiarize ourselves with utilizing network graph Python libraries like [*NetworkX*](https://networkx.org) for graph construction and analysis.
 
 ## Assignment 2
 
-Add assignment 2 description here
+In this assignment, we are asked to reimplement the core graph neural network model of a [paper](https://arxiv.org/abs/2404.00477) (i.e. De-HNN). We compare the benchmark results of our reimplementation to the one presented in the paper to check if the results line up. The goal of this assignment is to learn how to do graph embeddings, feature extraction for graph nodes and edges, and updates of graph features (i.e. message passing) in the process of reproducing a paper on graph neural network machine learning.
 
 # Setup Instructions
 
 ## Step 1: Clone the repository
 
-Clone this repository and cd into the Git directory:
+Clone this repository and cd into the cloned directory:
 
 ```
 git clone https://github.com/hanhoangia/DSC180A-Q1.git
@@ -33,8 +37,8 @@ Download the MTA ridership dataset [here](https://drive.google.com/drive/folders
 
 There are 2 options (raw and processed dataset):
 
-- *Processed dataset*: Download the dataset [here](https://zenodo.org/records/10795280?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6Ijk5NjM2MzZiLTg0ZmUtNDI2My04OTQ3LTljMjA5ZjA3N2Y1OSIsImRhdGEiOnt9LCJyYW5kb20iOiJlYzFmMGJlZTU3MzE1OWMzOTU2MWZkYTE3MzY5ZjRjOCJ9.WifQFExjW1CAW0ahf3e5Qr0OV9c2cw9_RUbOXUsvRbnKlkApNZwVCL_VPRJvAve0MJDC0DDOSx_RLiTvBimr0w). Extract the files from the zip file and place the extracted files into the `assignment2/data` folder. 
-- *Raw dataset*: Download the raw dataset [here](https://drive.google.com/file/d/1Scq35gvCQvIMrmthGs7MUhc8c1VZ8ZwN/view). Extract the zip into the `assignment2/data` folder. To process the raw data, cd into `de_hnn/data` folder and run `./run_all_python_scripts.sh` from the command line.
+- *Processed dataset*: Download [here](https://zenodo.org/records/10795280?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6Ijk5NjM2MzZiLTg0ZmUtNDI2My04OTQ3LTljMjA5ZjA3N2Y1OSIsImRhdGEiOnt9LCJyYW5kb20iOiJlYzFmMGJlZTU3MzE1OWMzOTU2MWZkYTE3MzY5ZjRjOCJ9.WifQFExjW1CAW0ahf3e5Qr0OV9c2cw9_RUbOXUsvRbnKlkApNZwVCL_VPRJvAve0MJDC0DDOSx_RLiTvBimr0w). Extract the files from the zip file and place the extracted files into the `assignment2/data` folder. 
+- *Raw dataset*: Download [here](https://drive.google.com/file/d/1Scq35gvCQvIMrmthGs7MUhc8c1VZ8ZwN/view). Extract the zip into the `assignment2/data` folder. To process the raw data, cd into `de_hnn/data` folder and run `./run_all_python_scripts.sh` from the command line.
 
 ## Step 3: Setup the Environment
 
@@ -66,7 +70,7 @@ conda activate DSC180A-B12
   - `src/`: Contains the source code of the project. The source code includes functions for handling the data and graph statistics, as well as the data objects.
 - `assignment2/`
   - `data/`: Stores the data of the assignment.
-  - `docs/`: Contains the documents related to the assignment, including the re-implementation paper and the data description files.
+  - `docs/`: Contains the data description files.
   - `notebooks/`: Contains the interactive code in Jupyter Notebook that produces the outputs for the assignment.
   - `outputs/`: Contains outputs for the assignment, including data exploration plots and benchmark tables.
   - `src/`: Contains the source code of the project. The source code includes functions and classes for the data loader, graph machine learning model, training and evaluation.
