@@ -94,6 +94,7 @@ conda activate DSC180A-B12
   - `docs/`: Contains the data description files.
   - `notebooks/`: Contains the interactive code in Jupyter Notebook that produces the outputs for the assignment.
   - `outputs/`: Contains outputs for the assignment, including data exploration plots and benchmark tables.
+    - `plots/`: Contains data exploration visualization plots.
   - `src/`: Contains the source code of the project. The source code includes functions and classes for the data loader, graph machine learning model, training and evaluation.
 
 - `.gitignore`:  Specify which files or directories Git should *ignore* when tracking changes in a repository.
