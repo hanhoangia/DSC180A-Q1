@@ -1,0 +1,27 @@
+Design 1
+Across folds, mean RMSE: 3.5496, mean MAE: 2.6459
+Design 2
+Across folds, mean RMSE: 7.7350, mean MAE: 5.9329
+Design 3
+Across folds, mean RMSE: 6.9895, mean MAE: 5.4906
+Design 4
+Across folds, mean RMSE: 6.9239, mean MAE: 5.4590
+Design 5
+Across folds, mean RMSE: 7.0199, mean MAE: 5.5312
+Design 6
+Across folds, mean RMSE: 5.8650, mean MAE: 4.4975
+Design 7
+Across folds, mean RMSE: 6.4723, mean MAE: 5.0729
+Design 8
+Across folds, mean RMSE: 6.0817, mean MAE: 4.7256
+Design 9
+Across folds, mean RMSE: 6.1355, mean MAE: 4.7582
+Design 10
+Across folds, mean RMSE: 5.8268, mean MAE: 4.5928
+Design 11
+Across folds, mean RMSE: 6.1349, mean MAE: 4.7867
+Design 12
+Across folds, mean RMSE: 6.4958, mean MAE: 5.0285
+Design 13
+Across folds, mean RMSE: 6.2832, mean MAE: 4.9847
+Across all designs, mean RMSE: 6.2703, mean MAE: 4.8851
